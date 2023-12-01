@@ -1,7 +1,7 @@
 package localRepo;
 
 import java.util.Scanner;
-public class sum {
+public class sumodd {
     
     public static void main(String[] args) {
         int n,sum=0;
@@ -16,12 +16,13 @@ public class sum {
             a[i]=s.nextInt();
         }
         for(int i=0;i<n;i++){
-            if(a[i]%2==0){
+            if(a[i]%2!=0){
                 sum=sum+a[i];
             }
 
         }
-        System.err.println("sum of even numbers:"+sum);
+        System.err.println("sum of odd numbers:"+sum);
 
     }
 }
+
